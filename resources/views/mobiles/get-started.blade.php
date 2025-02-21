@@ -1,8 +1,3 @@
-
-
-@if ($browser->isMobile())
-{{--  --}}
-
 @extends('mobile.master')
 
 @section('content')
@@ -34,9 +29,3 @@
     </div>
  </div>
 @endsection
-{{--  --}}
-@else
-@include('shaqshouse.index')
-@endif
-
-

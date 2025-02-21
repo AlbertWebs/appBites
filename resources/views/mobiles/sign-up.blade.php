@@ -1,7 +1,3 @@
-
-
-@if ($browser->isMobile())
-
 @extends('mobile.master-sign')
 
 @section('content')
@@ -91,10 +87,3 @@
  </div>
  @include('mobile.main-nav')
 @endsection
-
-
-@else
-   @include('shaqshouse.index')
-@endif
-
-
